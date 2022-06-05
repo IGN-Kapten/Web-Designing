@@ -1,0 +1,78 @@
+body {
+  background-color: rgb(11, 19, 43);
+  color: gold;
+}
+
+#form {
+  background-color: rgb(56, 22, 115);
+  width: 75%;
+  margin: 25% auto;
+  padding: 0% 7.5% 10% 5%;
+  box-sizing: border-box;
+  border-radius: 10px;
+  border-right: rgb(38, 15, 79) solid 5px;
+  border-bottom: rgb(38, 15, 79) solid 5px;
+}
+
+p {
+  padding: 5% 0 0% 0;
+  font-size: 25px;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+input {
+  border-radius: 5px;
+  font-size: 15px;
+  height: 25px;
+  width: 90%;
+  border: none;
+  border-left: rgb(76, 44, 133) solid 1px;
+  border-top: rgb(76, 44, 133) solid 1px;
+  border-right: rgb(76, 44, 133) solid 3px;
+  border-bottom: rgb(76, 44, 133) solid 3px;
+  background-color: rgb(56, 22, 115);
+  padding-left: 10%;
+  color: gold;
+  font-family: 'Kdam Thmor Pro', sans-serif;
+  }
+  
+input::-webkit-input-placeholder {
+  color: rgb(230, 197, 23);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+#username {
+  margin-bottom: 15px;
+}
+
+button {
+  border-left: rgb(76, 44, 133) solid 1px;
+  border-top: rgb(76, 44, 133) solid 1px;
+  border-right: rgb(76, 44, 133) solid 3px;
+  border-bottom: rgb(76, 44, 133) solid 3px;
+  border-radius: 10px;
+  display: block;
+  height: 35px;
+  width: 100px;
+  margin-top: 15%;
+  margin-left: 25%;
+  color: gold;
+  background-color: rgb(56, 22, 115);
+  font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+input:focus {
+  border-left: rgb(76, 44, 133) solid 1px;
+  border-top: rgb(76, 44, 133) solid 1px;
+  border-right: rgb(76, 44, 133) solid 5px;
+  border-bottom: rgb(76, 44, 133) solid 5px;
+}
+
+button:active {
+  background-color: gold;
+  color: rgb(56, 22, 115);
+  border-left: rgb(255, 219, 26) solid 1px;
+  border-top: rgb(255, 219, 26) solid 1px;
+  border-right: rgb(255, 219, 26) solid 3px;
+  border-bottom: rgb(255, 219, 26) solid 3px;
+}

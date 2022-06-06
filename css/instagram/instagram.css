@@ -1,11 +1,12 @@
 #main {
   width: 85%;
-  margin: 18% auto 0 auto;
+  margin: 0 auto 0 auto;
 }
 
 #header {
   margin-bottom: 18%;
   text-align: center;
+  margin-top: 15%;
 }
 
 img {
@@ -129,4 +130,17 @@ a {
   display: block;
   color: #8e8e8e;
   font-size: 10px
+}
+
+#sel {
+  width: 18%;
+  text-align: right;
+  border: none;
+  background-color: white;
+  color: #8e8e8e;
+  margin: 0 41% 0 41%;
+}
+
+.d-none {
+  display: none;
 }

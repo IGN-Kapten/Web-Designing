@@ -1,0 +1,109 @@
+body{
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhsbwXzIUqeNNEYdRjYpTuwkNUBvs6voDrVA&usqp=CAU");
+  color: lime;
+}
+
+nav{
+  text-align: center;
+  display: block;
+  border-bottom: 2px #4a4a4a solid;
+  border-radius: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+#homeDiv{
+  display: inline;
+}
+
+#aboutDiv{
+  display: inline;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#contactUsDiv{
+  display: inline;
+}
+
+a{
+  text-decoration: none;
+  color: lime;
+}
+
+a:hover {
+  font-size: 17px;
+  background-color: transparent;
+}
+
+#form{
+  margin: 20% 10% 0 10%;
+  padding: 5%;
+  border-top: 2px #4a4a4a solid;
+  border-left: 2px #4a4a4a solid;
+  border-radius: 3px;
+}
+
+label{
+  font-size: 25px;
+  margin-bottom: 25px;
+  display: block;
+  text-align: center;
+}
+
+input{
+  display: block;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: limegreen 1px solid;
+  background-color: transparent;
+  width: 86%;
+  height: 35px;
+  color: lime;
+  padding-left: 10%;
+}
+
+input::-webkit-input-placeholder{
+  color: lime;
+}
+
+button{
+  display: block;
+  width: 80px;
+  height: 30px;
+  margin: 22% auto 5% auto;
+  background-color: transparent;
+  border: limegreen 1px solid;
+  border-radius: 5px;
+  color: lime;
+}
+
+#fname{
+  display: inline;
+  width: 36%;
+  margin-bottom: 5%;
+}
+
+#lname{
+  display: inline;
+  width: 36%;
+}
+
+button:active{
+  font-size: 15px;
+  border: 1.5px limegreen solid;
+}
+
+input:focus{
+  font-size: 15px;
+}
+
+.hd-i{
+  border-right: 3px solid;
+  border-bottom: 3px solid limegreen;
+}
+
+.hd-b {
+  border-right: 6px solid #4a4a4a;
+  border-bottom: 6px solid #4a4a4a;
+}

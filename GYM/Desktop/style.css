@@ -1,0 +1,59 @@
+body {
+    background-color: #121212;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin: 1%;
+}
+
+#nav {
+    margin-top: 1%;
+    border-bottom: 1px white solid;
+    border-top: 1px white solid;
+    border-radius: 10px;
+}
+
+a:hover {
+    color: #01B636;
+}
+
+#redirects {
+    margin-left: 35%;
+    display: inline;
+}
+
+#btns {
+    margin-left: 17.5%;
+    display: inline;
+}
+
+button {
+    margin-left: 10px;
+    display: inline;
+    background-color: transparent;
+    border: white solid 1px;
+    padding: 5px;
+    border-radius: 3px;
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+button:hover {
+    border: #01B636 solid 1px;
+    color: #01B636;
+}
+
+#form {
+    margin-top: 8%;
+    margin-left: 10%;
+    border: solid white 1px;
+}
+
+input {
+    display: block;
+}
